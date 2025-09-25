@@ -8,7 +8,7 @@ int main (){
  y=n+m;
  A=abs(y);
  D=tan(x);
- Y=1,29+K/D+D*D;
+ Y=1.29+K/D+D*D;
  cout <<"Ответ равен: "<<Y;
  
  return 0;
