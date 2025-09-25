@@ -7,7 +7,7 @@ int main (){
  cin >>K>>D>>C>>x;
  A=x+sin(p);
  B=exp(K);
- Y=1+K*K/2*A*B-B+D*C;
+ Y=1+(K*K)/(2*A*B)-B+D*C;
  cout <<"Ответ равен: "<<Y;
 return 0;
 
