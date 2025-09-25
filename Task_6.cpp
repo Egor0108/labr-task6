@@ -2,14 +2,14 @@
 #include <cmath>
 using namespace std;
 int main (){
- double A, B, C, D, K, Y, x, p, h;
- cout << "Введите чему  равны x, p, h, K, D: ";
- cin >>x>>p>>h>>K>>D;
- A=x-p;
- B=log(h);
- Y=0.78*B +(A*A*A)/(K*C*D);
+ double A, B, x, d, C, K, Y;
+ cout << "Введите чему равны x, d, C, K: ";
+ cin >>x>>d>>C>>K;
+ A=log10(x);
+ B=x+exp(d);
+ Y=(A+B)-(C*C)/K;
  cout << "Ответ равен: "<<Y;
- 
+
  return 0;
 
 }
