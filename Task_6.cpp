@@ -2,13 +2,13 @@
 #include <cmath>
 using namespace std;
 int main (){
- double A, b, D, S, x;
- cout << "Введите чему равны D, x: ";
- cin >>D>>x;
-b=x+D;
-A=D*x/b;
-S=(A*A+b*cos(x))/(D*D*D+(A+D-b));
-cout << "Ответ равен: "<<S;
+ double A, B, C, D, K, T, x, y, z;
+ cout << "Введите C, D, k, x, y, z: ";
+ cin >>C>>D>>K>>x>>y>>z;
+ A=x-y;
+ B=sqrt(z);
+ T=cos(x)+(A*A)/(K-C*D)-B;
+ cout << "Ответ равен: "<<T;
 return 0;
 
 }
